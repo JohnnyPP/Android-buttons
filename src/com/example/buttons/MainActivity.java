@@ -1,8 +1,10 @@
 package com.example.buttons;
 
-import android.os.Bundle;
 import android.app.Activity;
+import android.os.Bundle;
 import android.view.Menu;
+import android.view.View;
+import android.widget.TextView;
 
 public class MainActivity extends Activity {
 
@@ -20,4 +22,9 @@ public class MainActivity extends Activity {
         return true;
     }
     
+    public void buttonClick(View v)
+    {
+    	TextView textView = (TextView)findViewById(R.id.textView); //textView is the ID added to the Hello World! string
+    	textView.setText("Test");
+    }
 }
