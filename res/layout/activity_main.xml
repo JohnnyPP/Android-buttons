@@ -23,4 +23,27 @@
         android:text="@string/button" 
         android:onClick="buttonClick" />
 
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="40dp"
+        android:text="@string/text_view_result" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="34dp"
+        android:ems="10" 
+		android:text="@string/edit_view">
+		
+        <requestFocus />
+    </EditText>
+"
+
 </RelativeLayout>
